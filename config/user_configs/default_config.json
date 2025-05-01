@@ -54,7 +54,33 @@
                 },
                 "quantidade": 5,
                 "periodo_analise": 90
-            }
+            },
+            "insights_disponiveis": [
+                {
+                    "nome": "Visão Geral de Vendas",
+                    "descricao": "Panorama geral das vendas com KPIs principais",
+                    "frequencia": "diario",
+                    "nivel_detalhe": "alto",
+                    "metricas": ["volume", "receita", "margem"],
+                    "segmentos": ["geral", "categoria"]
+                },
+                {
+                    "nome": "Previsão de Receita",
+                    "descricao": "Projeções de receita para os próximos 30 dias",
+                    "frequencia": "semanal",
+                    "nivel_detalhe": "medio",
+                    "metricas": ["receita"],
+                    "segmentos": ["geral"]
+                },
+                {
+                    "nome": "Análise de Produtos",
+                    "descricao": "Desempenho dos produtos mais relevantes",
+                    "frequencia": "diario",
+                    "nivel_detalhe": "alto",
+                    "metricas": ["volume", "receita"],
+                    "segmentos": ["produto"]
+                }
+            ]
         },
         "analista_de_vendas": {
             "previsao_vendas": {
@@ -74,7 +100,33 @@
                 },
                 "quantidade": 10,
                 "periodo_analise": 180
-            }
+            },
+            "insights_disponiveis": [
+                {
+                    "nome": "Análise Detalhada de Vendas",
+                    "descricao": "Análise profunda com todos os KPIs e métricas",
+                    "frequencia": "diario",
+                    "nivel_detalhe": "muito_alto",
+                    "metricas": ["volume", "receita", "margem", "custo", "lucro"],
+                    "segmentos": ["geral", "categoria", "produto", "regiao"]
+                },
+                {
+                    "nome": "Análise de Tendências",
+                    "descricao": "Identificação de padrões e tendências de vendas",
+                    "frequencia": "diario",
+                    "nivel_detalhe": "alto",
+                    "metricas": ["volume", "receita"],
+                    "segmentos": ["produto", "categoria"]
+                },
+                {
+                    "nome": "Análise de Anomalias",
+                    "descricao": "Detecção de comportamentos anômalos nas vendas",
+                    "frequencia": "diario",
+                    "nivel_detalhe": "alto",
+                    "metricas": ["volume", "receita"],
+                    "segmentos": ["produto", "categoria"]
+                }
+            ]
         },
         "representante_de_campo": {
             "previsao_vendas": {
@@ -93,7 +145,33 @@
                 },
                 "quantidade": 3,
                 "periodo_analise": 30
-            }
+            },
+            "insights_disponiveis": [
+                {
+                    "nome": "Metas do Dia",
+                    "descricao": "Objetivos diários e desempenho atual",
+                    "frequencia": "diario",
+                    "nivel_detalhe": "medio",
+                    "metricas": ["volume", "receita"],
+                    "segmentos": ["produto", "cliente"]
+                },
+                {
+                    "nome": "Oportunidades de Venda",
+                    "descricao": "Clientes e produtos com maior potencial",
+                    "frequencia": "diario",
+                    "nivel_detalhe": "medio",
+                    "metricas": ["volume", "receita"],
+                    "segmentos": ["cliente", "produto"]
+                },
+                {
+                    "nome": "Tendências Locais",
+                    "descricao": "Comportamento de vendas na região",
+                    "frequencia": "diario",
+                    "nivel_detalhe": "medio",
+                    "metricas": ["volume", "receita"],
+                    "segmentos": ["regiao", "produto"]
+                }
+            ]
         }
     }
 } 
