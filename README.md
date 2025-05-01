@@ -153,6 +153,6 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 ## 📧 Contato
 
-Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - email@exemplo.com
+Seu Nome - [@seu_twitter](https://twitter.com/Dheiver) - dheiver.santos@gmail.com
 
 Link do Projeto: [https://github.com/seu-usuario/sales-insights-ai](https://github.com/seu-usuario/sales-insights-ai) 
