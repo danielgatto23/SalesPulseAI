@@ -1,3 +1,13 @@
+# SalesForce.AI
+```
+   _____       __    __    _____    _____    _____    _____    _____    _____    _____    _____
+  / ____|     /  |  /  |  / ____|  / ____|  / ____|  / ____|  / ____|  / ____|  / ____|  / ____|
+ | (___      / / | / / | | (___   | (___   | (___   | (___   | (___   | (___   | (___   | (___  
+  \___ \    / /| |/ /| |  \___ \   \___ \   \___ \   \___ \   \___ \   \___ \   \___ \   \___ \ 
+  ____) |  / / |   | |  ____) |  ____) |  ____) |  ____) |  ____) |  ____) |  ____) |  ____) |
+ |_____/  /_/  |___| | |_____/  |_____/  |_____/  |_____/  |_____/  |_____/  |_____/  |_____/ 
+```
+
 # 🤖 Sistema de Insights de Vendas com Multi-Agentes
 
 Sistema inteligente de análise de vendas que utiliza uma equipe de agentes especializados trabalhando em conjunto para fornecer insights precisos e recomendações personalizadas.
