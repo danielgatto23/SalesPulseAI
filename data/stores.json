@@ -1,0 +1,62 @@
+{
+    "stores": [
+        {
+            "store_id": "S001",
+            "name": "Tech Store Sudeste",
+            "region": "Sudeste",
+            "city": "São Paulo",
+            "address": "Av. Paulista, 1000",
+            "manager": "João Silva",
+            "opening_date": "2023-01-15",
+            "size": "Grande",
+            "features": [
+                "Showroom",
+                "Serviço Técnico",
+                "Cafeteria"
+            ],
+            "performance": {
+                "monthly_sales": 150000.00,
+                "customer_satisfaction": 4.5,
+                "employee_count": 15
+            }
+        },
+        {
+            "store_id": "S002",
+            "name": "Tech Store Sul",
+            "region": "Sul",
+            "city": "Curitiba",
+            "address": "Rua XV de Novembro, 500",
+            "manager": "Maria Santos",
+            "opening_date": "2023-03-20",
+            "size": "Médio",
+            "features": [
+                "Showroom",
+                "Serviço Técnico"
+            ],
+            "performance": {
+                "monthly_sales": 120000.00,
+                "customer_satisfaction": 4.7,
+                "employee_count": 10
+            }
+        },
+        {
+            "store_id": "S003",
+            "name": "Tech Store Nordeste",
+            "region": "Nordeste",
+            "city": "Recife",
+            "address": "Av. Boa Viagem, 1500",
+            "manager": "Pedro Oliveira",
+            "opening_date": "2023-05-10",
+            "size": "Médio",
+            "features": [
+                "Showroom",
+                "Cafeteria"
+            ],
+            "performance": {
+                "monthly_sales": 100000.00,
+                "customer_satisfaction": 4.3,
+                "employee_count": 8
+            }
+        }
+    ]
+} 

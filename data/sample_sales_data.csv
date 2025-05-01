@@ -1,0 +1,46 @@
+date,product_id,product_name,category,price,quantity,user_id,rating,store_id,region,payment_method
+2024-01-01,P001,Smartphone X,Eletrônicos,2999.90,1,U001,5,S001,Sudeste,Cartão de Crédito
+2024-01-01,P002,Fone Bluetooth,Acessórios,199.90,2,U002,4,S002,Sul,Cartão de Débito
+2024-01-01,P003,Notebook Pro,Eletrônicos,5999.90,1,U003,5,S003,Nordeste,PIX
+2024-01-02,P004,Câmera 4K,Eletrônicos,1999.90,1,U004,4,S001,Sudeste,Cartão de Crédito
+2024-01-02,P005,Cartão SD,Acessórios,99.90,3,U005,3,S002,Sul,Cartão de Débito
+2024-01-02,P006,Carregador USB,Acessórios,49.90,5,U001,4,S003,Nordeste,PIX
+2024-01-03,P007,Tablet Lite,Eletrônicos,1499.90,2,U002,4,S001,Sudeste,Cartão de Crédito
+2024-01-03,P008,Capa Protetora,Acessórios,79.90,1,U003,3,S002,Sul,Cartão de Débito
+2024-01-03,P009,Power Bank,Acessórios,129.90,3,U004,5,S003,Nordeste,PIX
+2024-01-04,P001,Smartphone X,Eletrônicos,2999.90,1,U005,5,S001,Sudeste,Cartão de Crédito
+2024-01-04,P002,Fone Bluetooth,Acessórios,199.90,2,U001,4,S002,Sul,Cartão de Débito
+2024-01-04,P003,Notebook Pro,Eletrônicos,5999.90,1,U002,5,S003,Nordeste,PIX
+2024-01-05,P004,Câmera 4K,Eletrônicos,1999.90,1,U003,4,S001,Sudeste,Cartão de Crédito
+2024-01-05,P005,Cartão SD,Acessórios,99.90,3,U004,3,S002,Sul,Cartão de Débito
+2024-01-05,P006,Carregador USB,Acessórios,49.90,5,U005,4,S003,Nordeste,PIX
+2024-01-06,P007,Tablet Lite,Eletrônicos,1499.90,2,U001,4,S001,Sudeste,Cartão de Crédito
+2024-01-06,P008,Capa Protetora,Acessórios,79.90,1,U002,3,S002,Sul,Cartão de Débito
+2024-01-06,P009,Power Bank,Acessórios,129.90,3,U003,5,S003,Nordeste,PIX
+2024-01-07,P001,Smartphone X,Eletrônicos,2999.90,1,U004,5,S001,Sudeste,Cartão de Crédito
+2024-01-07,P002,Fone Bluetooth,Acessórios,199.90,2,U005,4,S002,Sul,Cartão de Débito
+2024-01-07,P003,Notebook Pro,Eletrônicos,5999.90,1,U001,5,S003,Nordeste,PIX
+2024-01-08,P004,Câmera 4K,Eletrônicos,1999.90,1,U002,4,S001,Sudeste,Cartão de Crédito
+2024-01-08,P005,Cartão SD,Acessórios,99.90,3,U003,3,S002,Sul,Cartão de Débito
+2024-01-08,P006,Carregador USB,Acessórios,49.90,5,U004,4,S003,Nordeste,PIX
+2024-01-09,P007,Tablet Lite,Eletrônicos,1499.90,2,U005,4,S001,Sudeste,Cartão de Crédito
+2024-01-09,P008,Capa Protetora,Acessórios,79.90,1,U001,3,S002,Sul,Cartão de Débito
+2024-01-09,P009,Power Bank,Acessórios,129.90,3,U002,5,S003,Nordeste,PIX
+2024-01-10,P001,Smartphone X,Eletrônicos,2999.90,1,U003,5,S001,Sudeste,Cartão de Crédito
+2024-01-10,P002,Fone Bluetooth,Acessórios,199.90,2,U004,4,S002,Sul,Cartão de Débito
+2024-01-10,P003,Notebook Pro,Eletrônicos,5999.90,1,U005,5,S003,Nordeste,PIX
+2024-01-11,P004,Câmera 4K,Eletrônicos,1999.90,1,U001,4,S001,Sudeste,Cartão de Crédito
+2024-01-11,P005,Cartão SD,Acessórios,99.90,3,U002,3,S002,Sul,Cartão de Débito
+2024-01-11,P006,Carregador USB,Acessórios,49.90,5,U003,4,S003,Nordeste,PIX
+2024-01-12,P007,Tablet Lite,Eletrônicos,1499.90,2,U004,4,S001,Sudeste,Cartão de Crédito
+2024-01-12,P008,Capa Protetora,Acessórios,79.90,1,U005,3,S002,Sul,Cartão de Débito
+2024-01-12,P009,Power Bank,Acessórios,129.90,3,U001,5,S003,Nordeste,PIX
+2024-01-13,P001,Smartphone X,Eletrônicos,2999.90,1,U002,5,S001,Sudeste,Cartão de Crédito
+2024-01-13,P002,Fone Bluetooth,Acessórios,199.90,2,U003,4,S002,Sul,Cartão de Débito
+2024-01-13,P003,Notebook Pro,Eletrônicos,5999.90,1,U004,5,S003,Nordeste,PIX
+2024-01-14,P004,Câmera 4K,Eletrônicos,1999.90,1,U005,4,S001,Sudeste,Cartão de Crédito
+2024-01-14,P005,Cartão SD,Acessórios,99.90,3,U001,3,S002,Sul,Cartão de Débito
+2024-01-14,P006,Carregador USB,Acessórios,49.90,5,U002,4,S003,Nordeste,PIX
+2024-01-15,P007,Tablet Lite,Eletrônicos,1499.90,2,U003,4,S001,Sudeste,Cartão de Crédito
+2024-01-15,P008,Capa Protetora,Acessórios,79.90,1,U004,3,S002,Sul,Cartão de Débito
+2024-01-15,P009,Power Bank,Acessórios,129.90,3,U005,5,S003,Nordeste,PIX 

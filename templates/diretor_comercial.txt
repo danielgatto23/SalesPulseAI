@@ -1,0 +1,25 @@
+# Resumo Executivo de Vendas
+
+## 📈 Visão Geral
+{visao_geral}
+
+## 🎯 Principais Indicadores
+- Vendas Totais: R$ {vendas_totais}
+- Crescimento vs. Período Anterior: {crescimento}%
+- Produtos Mais Vendidos: {top_produtos}
+
+## 🔍 Insights Principais
+{insights_principais}
+
+## 📊 Previsões
+- Previsão de Vendas (Próximos 30 dias): R$ {previsao_vendas}
+- Tendência: {tendencia}
+
+## 💡 Recomendações
+{recomendacoes}
+
+## ⚠️ Alertas
+{alertas}
+
+## 📅 Próximos Passos
+{proximos_passos} 

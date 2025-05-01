@@ -1,0 +1,31 @@
+# Relatório de Campo
+
+## 🎯 Metas do Dia
+{metas_dia}
+
+## 📊 Desempenho Atual
+{desempenho_atual}
+
+## 🏆 Produtos em Destaque
+{produtos_destaque}
+
+## 💰 Oportunidades de Venda
+{oportunidades_venda}
+
+## 📈 Tendências Locais
+{tendencias_locais}
+
+## 🔍 Insights do Cliente
+{insights_cliente}
+
+## 📋 Lista de Tarefas
+{tarefas}
+
+## 💡 Dicas de Venda
+{dicas_venda}
+
+## ⚠️ Alertas Importantes
+{alertas}
+
+## 📅 Próximas Visitas
+{proximas_visitas} 

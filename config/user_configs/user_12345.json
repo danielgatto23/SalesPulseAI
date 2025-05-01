@@ -1,0 +1,8 @@
+{
+    "usuario_id": "12345",
+    "persona": "diretor_comercial",
+    "frequencia_envio": "semanal",
+    "tipo_conteudo": ["tendencias", "anomalias", "top_produtos"],
+    "horario_preferido": "08:30",
+    "formato_preferido": "resumo_executivo"
+} 

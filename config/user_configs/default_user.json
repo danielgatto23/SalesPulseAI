@@ -1,0 +1,29 @@
+{
+    "usuario_id": "default_user",
+    "persona": "diretor_comercial",
+    "frequencia_envio": "diario",
+    "tipo_conteudo": [
+        "tendencias",
+        "anomalias",
+        "top_produtos",
+        "previsoes",
+        "recomendacoes"
+    ],
+    "horario_preferido": "09:00",
+    "formato_preferido": "resumo_executivo",
+    "data_sources": [
+        {
+            "type": "csv",
+            "path": "./data/sample_sales_data.csv"
+        }
+    ],
+    "preferences": {
+        "language": "pt-BR",
+        "timezone": "America/Sao_Paulo",
+        "notifications": {
+            "email": false,
+            "telegram": true,
+            "whatsapp": false
+        }
+    }
+} 

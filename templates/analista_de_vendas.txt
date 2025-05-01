@@ -1,0 +1,36 @@
+# Análise Detalhada de Vendas
+
+## 📊 Desempenho por Segmento
+{desempenho_segmento}
+
+## 📈 Tendências de Vendas
+{tendencias_vendas}
+
+## 🎯 Produtos
+### Top Produtos
+{top_produtos}
+
+### Produtos com Baixo Desempenho
+{produtos_baixo_desempenho}
+
+### Oportunidades de Crescimento
+{oportunidades_crescimento}
+
+## 📉 Análise de Anomalias
+{analise_anomalias}
+
+## 🔍 Insights Detalhados
+{insights_detalhados}
+
+## 📊 Previsões
+### Previsão Prophet
+{previsao_prophet}
+
+### Previsão XGBoost
+{previsao_xgboost}
+
+## 💡 Recomendações Técnicas
+{recomendacoes_tecnicas}
+
+## 📅 Ações Recomendadas
+{acoes_recomendadas} 

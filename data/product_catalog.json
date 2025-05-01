@@ -1,0 +1,142 @@
+{
+    "products": [
+        {
+            "product_id": "P001",
+            "product_name": "Smartphone X",
+            "category": "Eletrônicos",
+            "brand": "TechCo",
+            "description": "Smartphone premium com câmera de 48MP",
+            "specifications": {
+                "screen_size": "6.5\"",
+                "ram": "8GB",
+                "storage": "128GB",
+                "battery": "4000mAh"
+            },
+            "price": 2999.90,
+            "stock": 50,
+            "launch_date": "2023-10-01"
+        },
+        {
+            "product_id": "P002",
+            "product_name": "Fone Bluetooth",
+            "category": "Acessórios",
+            "brand": "SoundPro",
+            "description": "Fone sem fio com cancelamento de ruído",
+            "specifications": {
+                "battery_life": "20h",
+                "bluetooth_version": "5.0",
+                "water_resistant": "IPX4"
+            },
+            "price": 199.90,
+            "stock": 100,
+            "launch_date": "2023-11-15"
+        },
+        {
+            "product_id": "P003",
+            "product_name": "Notebook Pro",
+            "category": "Eletrônicos",
+            "brand": "TechCo",
+            "description": "Notebook profissional com processador i7",
+            "specifications": {
+                "screen_size": "15.6\"",
+                "processor": "i7-1165G7",
+                "ram": "16GB",
+                "storage": "512GB SSD"
+            },
+            "price": 5999.90,
+            "stock": 30,
+            "launch_date": "2023-09-01"
+        },
+        {
+            "product_id": "P004",
+            "product_name": "Câmera 4K",
+            "category": "Eletrônicos",
+            "brand": "PhotoPro",
+            "description": "Câmera profissional com gravação 4K",
+            "specifications": {
+                "sensor": "1\" CMOS",
+                "resolution": "20.1MP",
+                "video": "4K 30fps"
+            },
+            "price": 1999.90,
+            "stock": 25,
+            "launch_date": "2023-12-01"
+        },
+        {
+            "product_id": "P005",
+            "product_name": "Cartão SD",
+            "category": "Acessórios",
+            "brand": "StoragePro",
+            "description": "Cartão de memória de alta velocidade",
+            "specifications": {
+                "capacity": "128GB",
+                "speed": "UHS-I",
+                "class": "Class 10"
+            },
+            "price": 99.90,
+            "stock": 200,
+            "launch_date": "2023-08-01"
+        },
+        {
+            "product_id": "P006",
+            "product_name": "Carregador USB",
+            "category": "Acessórios",
+            "brand": "PowerTech",
+            "description": "Carregador rápido USB-C",
+            "specifications": {
+                "power": "30W",
+                "ports": "2",
+                "fast_charging": true
+            },
+            "price": 49.90,
+            "stock": 150,
+            "launch_date": "2023-10-15"
+        },
+        {
+            "product_id": "P007",
+            "product_name": "Tablet Lite",
+            "category": "Eletrônicos",
+            "brand": "TechCo",
+            "description": "Tablet compacto para uso diário",
+            "specifications": {
+                "screen_size": "10.1\"",
+                "processor": "Snapdragon 662",
+                "ram": "4GB",
+                "storage": "64GB"
+            },
+            "price": 1499.90,
+            "stock": 40,
+            "launch_date": "2023-11-01"
+        },
+        {
+            "product_id": "P008",
+            "product_name": "Capa Protetora",
+            "category": "Acessórios",
+            "brand": "ProtectPro",
+            "description": "Capa protetora para Smartphone X",
+            "specifications": {
+                "material": "Silicone",
+                "protection": "Militar",
+                "color": "Preto"
+            },
+            "price": 79.90,
+            "stock": 80,
+            "launch_date": "2023-10-01"
+        },
+        {
+            "product_id": "P009",
+            "product_name": "Power Bank",
+            "category": "Acessórios",
+            "brand": "PowerTech",
+            "description": "Power bank de alta capacidade",
+            "specifications": {
+                "capacity": "20000mAh",
+                "ports": "3",
+                "fast_charging": true
+            },
+            "price": 129.90,
+            "stock": 60,
+            "launch_date": "2023-09-15"
+        }
+    ]
+} 
