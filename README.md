@@ -1,15 +1,68 @@
-# Sistema de Insights de Vendas
+# 🤖 Sistema de Insights de Vendas com Multi-Agentes
 
-Sistema inteligente para previsão de vendas e recomendação de produtos, com envio automatizado de insights via Telegram.
+Sistema inteligente de análise de vendas que utiliza uma equipe de agentes especializados trabalhando em conjunto para fornecer insights precisos e recomendações personalizadas.
 
-## 🚀 Funcionalidades
+## 🌟 Destaques
 
-- **Ingestão de Dados**: Suporte para arquivos CSV, Excel, JSON e conexão com banco de dados SQL
-- **Modelagem Preditiva**: Previsão de vendas usando Prophet e XGBoost
-- **Recomendação de Produtos**: Baseada em filtragem colaborativa e regras de associação
-- **Personalização por Persona**: Insights adaptados para diferentes perfis de usuário
-- **Geração de Insights**: Utilizando a API Gemini para linguagem natural
-- **Envio Automatizado**: Distribuição de insights via Telegram com base em regras configuráveis
+- **Arquitetura Multi-Agentes**: Cada aspecto do sistema é gerenciado por um agente especializado
+- **Análise em Tempo Real**: Processamento contínuo de dados para insights atualizados
+- **Personalização por Perfil**: Relatórios adaptados para diferentes personas
+- **Integração com IA**: Utiliza modelos avançados de machine learning e processamento de linguagem natural
+- **Automação Completa**: Do processamento de dados ao envio de relatórios
+
+## 👥 Equipe de Agentes Especializados
+
+### 📊 Agente de Ingestão de Dados
+- Coleta dados de múltiplas fontes (CSV, Excel, JSON, SQL)
+- Realiza limpeza e normalização automática
+- Detecta e corrige anomalias nos dados
+- Mantém pipeline de dados em tempo real
+
+### 🧠 Agente de Modelagem
+- Gera previsões de vendas usando Prophet e XGBoost
+- Implementa sistema de recomendação com filtragem colaborativa
+- Identifica padrões e tendências
+- Ajusta modelos automaticamente baseado em feedback
+
+### 💡 Agente de Geração de Insights
+- Utiliza IA generativa (API Gemini) para análises em linguagem natural
+- Adapta o tom e profundidade das análises por perfil
+- Gera insights acionáveis e recomendações estratégicas
+- Prioriza informações relevantes para cada usuário
+
+### 📱 Agente de Distribuição Telegram
+- Envia relatórios personalizados via Telegram
+- Gerencia agendamentos e frequência de envios
+- Formata mensagens para melhor visualização mobile
+- Permite interação e feedback dos usuários
+
+## 🎯 Personas e Relatórios Personalizados
+
+### 👔 Diretor Comercial
+- Visão macro do negócio
+- KPIs principais e tendências
+- Alertas estratégicos
+- Recomendações de alto nível
+
+### 📈 Analista de Vendas
+- Análise detalhada de dados
+- Insights técnicos aprofundados
+- Previsões e modelagens
+- Oportunidades de otimização
+
+### 🚀 Representante de Campo
+- Metas e desempenho diário
+- Oportunidades de venda
+- Insights sobre clientes
+- Recomendações táticas
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Machine Learning**: Prophet, XGBoost, Scikit-learn
+- **IA Generativa**: Google Gemini API
+- **Processamento de Dados**: Pandas, NumPy
+- **Automação**: CrewAI, APScheduler
+- **Comunicação**: Python Telegram Bot API
 
 ## 📋 Pré-requisitos
 
@@ -38,84 +91,50 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-4. Copie o arquivo de exemplo de variáveis de ambiente:
-```bash
-cp .env.example .env
+4. Configure as variáveis de ambiente no arquivo `.env`:
+```
+GEMINI_API_KEY=sua-chave-aqui
+TELEGRAM_BOT_TOKEN=seu-token-aqui
 ```
 
-5. Configure as variáveis de ambiente no arquivo `.env`:
-- `GEMINI_API_KEY`: Sua chave da API Gemini
-- `TELEGRAM_BOT_TOKEN`: Token do seu bot do Telegram
-- `DB_CONNECTION_STRING`: String de conexão com o banco de dados (se aplicável)
+## 📊 Exemplo de Uso
 
-## 🛠️ Estrutura do Projeto
-
-```
-sales-insights-ai/
-├── agents/                  # Agentes CrewAI
-├── config/                  # Configurações
-├── data/                    # Dados de exemplo
-├── models/                  # Modelos de ML
-├── templates/               # Templates de relatórios
-├── utils/                   # Utilitários
-├── main.py                 # Ponto de entrada
-├── requirements.txt        # Dependências
-└── README.md              # Documentação
-```
-
-## 📝 Configuração de Usuários
-
-1. Crie um arquivo de configuração para cada usuário em `config/user_configs/`:
-```json
-{
-    "usuario_id": "12345",
-    "persona": "diretor_comercial",
-    "frequencia_envio": "semanal",
-    "tipo_conteudo": ["tendencias", "anomalias", "top_produtos"],
-    "horario_preferido": "08:30",
-    "formato_preferido": "resumo_executivo"
-}
-```
-
-2. As personas disponíveis são:
-- `diretor_comercial`: Visão macro e resumo executivo
-- `analista_de_vendas`: Análise detalhada e técnica
-- `representante_de_campo`: Foco em metas e oportunidades
-
-## 🚀 Executando o Sistema
-
-1. Inicie o sistema:
+1. Configure os perfis de usuário em `config/user_configs/`
+2. Adicione suas fontes de dados em `data/`
+3. Execute o sistema:
 ```bash
 python main.py
 ```
 
-2. O sistema irá:
-- Carregar as configurações dos usuários
-- Agendar os envios de acordo com as preferências
-- Processar os dados e gerar insights
-- Enviar os relatórios via Telegram
+O sistema iniciará automaticamente:
+- 🤖 Ativando todos os agentes
+- 📊 Processando dados em tempo real
+- 🧠 Gerando insights personalizados
+- 📱 Enviando relatórios via Telegram
 
-## 📊 Dados de Exemplo
+## 📈 Benefícios
 
-O diretório `data/` contém arquivos de exemplo nos formatos suportados:
-- `sample_sales_data.csv`: Dados de vendas em formato CSV
-- `sample_sales_data.xlsx`: Dados de vendas em formato Excel
-- `sample_sales_data.json`: Dados de vendas em formato JSON
+- **Economia de Tempo**: Automação de análises complexas
+- **Insights Acionáveis**: Recomendações práticas e contextualizadas
+- **Personalização**: Informações relevantes para cada perfil
+- **Monitoramento Contínuo**: Alertas e atualizações em tempo real
+- **Escalabilidade**: Arquitetura modular e extensível
 
 ## 🔍 Monitoramento
 
-O sistema registra logs de execução, incluindo:
-- Carregamento de dados
-- Geração de previsões
+O sistema mantém logs detalhados de todas as operações:
+- Atividades dos agentes
+- Processamento de dados
+- Geração de insights
 - Envio de mensagens
 - Erros e exceções
 
 ## 🤝 Contribuição
 
 1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/NovaFeature`)
 5. Abra um Pull Request
 
 ## 📄 Licença
