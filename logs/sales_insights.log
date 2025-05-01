@@ -1,0 +1,10 @@
+2024-01-01 08:00:00,000 - INFO - Sistema de Insights de Vendas iniciado
+2024-01-01 08:00:01,000 - INFO - Carregando configurações do usuário
+2024-01-01 08:00:02,000 - INFO - Configurações carregadas com sucesso
+2024-01-01 08:00:03,000 - INFO - Iniciando análise de dados
+2024-01-01 08:00:04,000 - INFO - Dados carregados com sucesso
+2024-01-01 08:00:05,000 - INFO - Gerando insights
+2024-01-01 08:00:06,000 - INFO - Insights gerados com sucesso
+2024-01-01 08:00:07,000 - INFO - Enviando mensagens via Telegram
+2024-01-01 08:00:08,000 - INFO - Mensagens enviadas com sucesso
+2024-01-01 08:00:09,000 - INFO - Sistema finalizado com sucesso 

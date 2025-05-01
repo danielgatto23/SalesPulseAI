@@ -1,0 +1,99 @@
+{
+    "usuario_id": "default",
+    "persona": "diretor_comercial",
+    "frequencia_envio": "diario",
+    "horario_preferido": "08:30",
+    "formato_preferido": "resumo_executivo",
+    "preferencias_analise": {
+        "previsao_vendas": {
+            "horizonte": 30,
+            "metodo": "prophet",
+            "nivel_detalhe": "alto",
+            "metricas": ["volume", "receita", "margem"],
+            "segmentos": ["geral", "categoria", "produto"]
+        },
+        "recomendacao_produtos": {
+            "metodo": "hibrido",
+            "filtros": {
+                "categoria": true,
+                "preco": true,
+                "desempenho": true
+            },
+            "quantidade": 5,
+            "periodo_analise": 90
+        }
+    },
+    "alertas": {
+        "anomalias": true,
+        "tendencias": true,
+        "metas": true,
+        "threshold_anomalia": 0.2
+    },
+    "tipo_conteudo": [
+        "tendencias",
+        "anomalias",
+        "top_produtos",
+        "previsoes",
+        "recomendacoes"
+    ],
+    "configuracoes_persona": {
+        "diretor_comercial": {
+            "previsao_vendas": {
+                "horizonte": 30,
+                "metodo": "prophet",
+                "nivel_detalhe": "alto",
+                "metricas": ["volume", "receita", "margem"],
+                "segmentos": ["geral", "categoria"]
+            },
+            "recomendacao_produtos": {
+                "metodo": "hibrido",
+                "filtros": {
+                    "categoria": true,
+                    "preco": true,
+                    "desempenho": true
+                },
+                "quantidade": 5,
+                "periodo_analise": 90
+            }
+        },
+        "analista_de_vendas": {
+            "previsao_vendas": {
+                "horizonte": 60,
+                "metodo": "xgb",
+                "nivel_detalhe": "muito_alto",
+                "metricas": ["volume", "receita", "margem", "custo", "lucro"],
+                "segmentos": ["geral", "categoria", "produto", "regiao"]
+            },
+            "recomendacao_produtos": {
+                "metodo": "colaborativo",
+                "filtros": {
+                    "categoria": true,
+                    "preco": true,
+                    "desempenho": true,
+                    "tendencia": true
+                },
+                "quantidade": 10,
+                "periodo_analise": 180
+            }
+        },
+        "representante_de_campo": {
+            "previsao_vendas": {
+                "horizonte": 7,
+                "metodo": "prophet",
+                "nivel_detalhe": "medio",
+                "metricas": ["volume", "receita"],
+                "segmentos": ["produto", "cliente"]
+            },
+            "recomendacao_produtos": {
+                "metodo": "associacao",
+                "filtros": {
+                    "categoria": true,
+                    "preco": true,
+                    "estoque": true
+                },
+                "quantidade": 3,
+                "periodo_analise": 30
+            }
+        }
+    }
+} 
